@@ -26,9 +26,9 @@ convo = [
     'hi there!',
     'What is your name?',
     'My name is Ashot.',
-    'what does that mean?',
-    'I am a chatbot created by Miss Ashwini thatswhy my name is Ashot.' ,
-    'how are you?',
+    'What does that mean?',
+    'I am a chatbot created by Mr Sahil that's why my name is Ashot.' ,
+    'How are you?',
     'I am good. what about you?',
     'In which city you live?',
     'I live in Mumbai',
@@ -36,34 +36,34 @@ convo = [
     'I mostly talk in English',
     'by',
     'Nice talking with you, Have a great day',
-    'tell me about your college?',
+    'Tell me about your college?',
     'Vivekanand Education Society Institute of Technology also known as VESIT or V. E. S. Institute of Technology, established in 1984, is a premier engineering college affiliated with the University of Mumbai. ',
     'who is the principal of VESIT?',
-    'DR. (MRS.)J. M. NAIR is the principal of vivekananda education society institude of technology',
-    'which companies comes in vesit placement?',
+    'DR. (MRS.)J. M. NAIR is the principal of the Vivekanand Education Society's institute of technology,
+    'which companies come in vesit placement?',
     'Morgan Stanley, Nomura, KPMG, Capgemini, Accenture, Tech Mahindra, ATOS, Diebold, JPMC, L&T, Cognizant, TCS, SAP, IVP, I-Gate and many other companies visit our campus.',
-    'Who is the Head of Electronics  Department?',
-    'Mrs.Kavita Tewari is the Head of Electronics  Department.',
-    'Can you tell me about infrastructure of College?',
+    'Who is the Head of the Electronics  Department?',
+    'Mrs. Kavita Tewari is the Head of the Electronics  Department.',
+    'Can you tell me about the infrastructure of the College?',
     'Amphitheater, Auditorium, Sports, Laboratory, Library, Hostel, Canteen, Language Lab',
     'How many branches of engineering are there in VESIT?',
-    'Electronics, Computer, Electronics and Telecommunication, Instrumentation, Information & technology, Al & Data Science, Master of computer Applications, Humanities & Applied Science',
-    'Cut off in Vivekanand Education Society Institute of technology?',
+    'Electronics, Computer, Electronics and Telecommunication, Instrumentation, Information & Technology, Al & Data Science, Master of Computer Applications, Humanities & Applied Science',
+    'Cut off in Vivekanand Education Society Institute of Technology?',
     'For JEE MAIN Round 2021 Cut-off by rank was 48950 and 58809 and for MHT CET Round Cut-off by score 2021 Cut-off by score for round 1 is 95.93 and round 2 is 95.38',
     'How are the fests at VESIT, Mumbai?',
     'Praxis, Spurti, Illusion, Utsav and Annual day',
     'Fee structure in VESIT?',
     'For M.C.A	₹1 Lakh (1st Year Fees)	Graduation, BE	₹1.13 Lakhs (1st Year Fees), M.E	₹1.05 Lakhs (1st Year Fees)	Pass in Graduation',
-    'what is minimum package for etrx?',
+    'what is a minimum package for ETRX branch?',
     'Minimum package in VESIT is 3LPA.',
-    'What is rank of the college of VESIT?'
+    'What is the rank of the college of VESIT?'
     'It comes in NIRF Rank-band from 251-300 every year'
 
 ]
 
 trainer = ListTrainer(bot)
 
-# now training the bot with the help of trainer
+# Now training the bot with the help of a trainer
 
 trainer.train(convo)
 
